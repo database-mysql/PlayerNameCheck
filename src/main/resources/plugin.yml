@@ -1,0 +1,33 @@
+name: PlayerNameCheck
+version: '${project.version}'
+main: top.gtb520.plugin.playernamecheck.main
+api-version: '1.20'
+authors: [ database-mysql, gtb520, a1a1a13684 ]
+description: 小龙套服务器安全管理
+commands:
+  xiaolongtaoserver:
+    description: 根命令
+    permission: xiaolongtaoserver.xiaolongtaoserver
+    permission-message: §c§l权限不足
+  fly:
+    description: 飞行
+    permission: xiaolongtaoserver.fly
+    permission-message: §c§l权限不足
+  mute:
+    description: 禁言
+    permission: xiaolongtaoserver.mute
+    permission-message: §c§l权限不足
+  unmute:
+    description: 解除禁言
+    permission: xiaolongtaoserver.unmute
+    permission-message: §c§l权限不足
+permissions:
+  xiaolongtaoserver.fly:
+    description: 管理员飞行
+    default: op
+  OpenTools.mute:
+    description: mute命令权限
+    default: op
+  OpenTools.unmute:
+    description: unmute命令权限
+    default: op

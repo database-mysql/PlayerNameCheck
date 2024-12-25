@@ -1,0 +1,27 @@
+# 违禁词和敏感词列表
+bad-words:
+  - "sb"
+  - "moderator"
+  - "hack"
+
+# 封禁消息
+ban-message: "&c您的名字包含违禁词或敏感词，您已被自动踢出服务器。"
+
+#公告设置
+TimeMessageSetting:
+  #是否启动公告系统
+  TimeMessage: true
+  #发送公告间隔时间(单位秒)
+  TimeMessageTime: 60
+  #公告内容
+  Message:
+    - "---> 默认公告内容 <---"
+    - "请在插件配置文件里修改（config.yml）"
+    - "使用重载命令即可重载插件（/xiaolongtaoserver plugin reload）"
+
+#ColorSignSetting设置
+ColorSignSetting:
+  #是否允许管理员使用ColorSign
+  AllowAdminUsedColorSign: true
+  #是否允许普通玩家使用ColorSign
+  AllowPlayerUsedColorSign: true
